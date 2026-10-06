@@ -1,0 +1,30 @@
+# Données : jamais versionnées.
+# Les fichiers sources pèsent 236 Mo au total, au-delà de la limite GitHub
+# de 100 Mo par fichier. Voir le README pour savoir où les déposer.
+*.csv
+*.parquet
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Environnement virtuel
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
